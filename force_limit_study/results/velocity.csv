@@ -1,0 +1,2 @@
+cruise_speed_mm_s,rise_time_ms,bandwidth_Hz,overshoot_percent,steady_60_error_mm_s,max_server_position_mm,true_rise_time_ms,true_bandwidth_Hz,true_overshoot_percent,insert_speed_error_mm_s,insert_true_speed_error_mm_s,final_state,fault_flags
+49.99713577270508,35.0,10.0,8.851394653320312,-0.1065265083312994,192.21173324049656,34.9999999999997,10.000000000000085,7.688516822881155,0.008352363586425327,0.008398171823452927,2,0

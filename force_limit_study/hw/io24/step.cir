@@ -1,0 +1,24 @@
+24 V isolated sinking input, TLP291 GB, low MCU level = ON
+Vin inp 0 PWL(0 0 1m 0 1.0001m 24 3m 24 3.0001m 0 5m 0)
+D1 inp a rect
+R1 a b 887
+R2 b z 887
+DZ1 led z zener
+R3 led 0 453
+Vled led ld 0
+DLED ld 0 optoled
+Vcc vcc 0 3.3
+R4 vcc out 10000
+Fphoto 0 photo Vled 2
+Rphoto photo 0 1k
+Rdelay photo drive 1k
+Cdelay drive 0 7n
+Bsink out 0 I=max(v(drive)/1000,0)*max(v(out)-0.2,0)/(max(v(out)-0.2,0)+0.01)
+Idark out 0 10u
+Cout out 0 30p
+.model rect D(Is=1n N=1.6 Rs=0.1 BV=1000 IBV=5u)
+.model zener D(Is=1p N=1 Rs=10 BV=2.7 IBV=5m)
+.model optoled D(Is=3.1597291538e-13 N=2 Rs=0)
+.options reltol=1e-5 abstol=1e-12
+.tran 0.2u 5m 0 0.2u
+.end

@@ -1,0 +1,31 @@
+signal,net,connector,connector_pin,connector_path,mcu_pin,port,passives
+DIR1,/DIR1,J38,4,direct,18,PC3,
+DIR2,/DIR2,J45,4,direct,26,PA4,
+DIR3,/DIR3,J46,4,direct,5,PE6,
+DIR4,/DIR4,J47,4,direct,68,PC9,
+DIR5,/DIR5,J48,4,direct,61,PD14,
+DIR6,/DIR6,J49,4,direct,97,PE0,
+ENC1_A,/ENC1_A,J39,1,direct,15,PC0,
+ENC1_B,/ENC1_B,J39,2,direct,16,PC1,
+ENC2_A,/ENC2_A,J40,1,direct,20,PA0,
+ENC2_B,/ENC2_B,J40,2,direct,21,PA1,
+ENC3_A,/ENC3_A,J41,1,direct,28,PA6,
+ENC3_B,/ENC3_B,J41,2,direct,29,PA7,
+ENC4_A,/ENC4_A,J42,1,direct,59,PD12,
+ENC4_B,/ENC4_B,J42,2,direct,60,PD13,
+ENC5_A,/ENC5_A,J43,1,direct,65,PC6,
+ENC5_B,/ENC5_B,J43,2,direct,66,PC7,
+ENC6_A,/ENC6_A,J44,1,direct,1,PE2,
+ENC6_B,/ENC6_B,J44,2,direct,2,PE3,
+FSR_ADC,/FSR_ADC,J30,1,via R36=10k,44,PE13,C8=100nF (1:/FSR_ADC; 2:GND) | R36=10k (1:/FSR_ADC; 2:Net-(J30-Pin_1))
+FSR_SIG,/FSR_SIG,J30,2,"via Q4 (switched node, separate net)",45,PE14,R28=10k (1:/FSR_SIG; 2:v3v3)
+LASER_SIG,/LASER_SIG,J37,1,"via Q5 (switched node, separate net)",46,PE15,R30=10k (1:/LASER_SIG; 2:GND)
+LIM_SW1,/LIM_SW1,J31,1,via R38=100,41,PE10,R38=100 (1:Net-(J31-Pin_1); 2:/LIM_SW1)
+LIM_SW2,/LIM_SW2,J36,1,via R39=100,42,PE11,R39=100 (1:Net-(J36-Pin_1); 2:/LIM_SW2)
+LIM_SW3,/LIM_SW3,J33,1,via R40=100,43,PE12,R40=100 (1:Net-(J33-Pin_1); 2:/LIM_SW3)
+PWM1,/PWM1,J38,3,direct,17,PC2,
+PWM2,/PWM2,J45,3,direct,25,PA3,
+PWM3,/PWM3,J46,3,direct,4,PE5,
+PWM4,/PWM4,J47,3,direct,67,PC8,
+PWM5,/PWM5,J48,3,direct,62,PD15,
+PWM6,/PWM6,J49,3,direct,98,PE1,

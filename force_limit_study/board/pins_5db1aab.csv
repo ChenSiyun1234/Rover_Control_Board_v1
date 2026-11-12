@@ -1,0 +1,28 @@
+signal,net,connector,connector_pin,connector_path,mcu_pin,port,passives
+DIR1,/DIR1,J7,4,direct,90,PB3,
+DIR2,/DIR2,J9,4,direct,96,PB9,
+DIR3,/DIR3,J10,4,direct,4,PE5,
+DIR4,/DIR4,J14,4,direct,18,PC3,
+DIR5,/DIR5,J19,4,direct,19,PF2,
+DIR6,/DIR6,J22,4,direct,26,PA4,
+ENC1_A,/ENC1_A,J6,2,direct,91,PB4,
+ENC1_B,/ENC1_B,J6,3,direct,92,PB5,
+ENC2_A,/ENC2_A,J8,2,direct,93,PB6,
+ENC2_B,/ENC2_B,J8,3,direct,94,PB7,
+ENC3_A,/ENC3_A,J11,2,direct,1,PE2,
+ENC3_B,/ENC3_B,J11,3,direct,2,PE3,
+ENC4_A,/ENC4_A,J15,2,direct,15,PC0,
+ENC4_B,/ENC4_B,J15,3,direct,16,PC1,
+ENC_5,/ENC_5,J18,2,direct,21,PA1,
+ENC_6,/ENC_6,J21,2,direct,20,PA0,
+FSR_ADC,/FSR_ADC,J27,1,direct,41,PE10,C32=10nF (1:/FSR_ADC; 2:GND) | R26=1M (1:/FSR_ADC; 2:GND)
+LASER_SIG,/LASER_SIG,J30,1,"via R35/Q1 (switched node, separate net)",42,PE11,R35=1k (1:/LASER_SIG; 2:Net-(Q1-B))
+LIM_SW1,/LIM_SW1,J26,2,via R23=100,43,PE12,R23=100 (1:Net-(J26-Pin_2); 2:/LIM_SW1)
+LIM_SW2,/LIM_SW2,J28,2,via R29=100,44,PE13,R29=100 (1:Net-(J28-Pin_2); 2:/LIM_SW2)
+LIM_SW3,/LIM_SW3,J31,2,via R33=100,45,PE14,R33=100 (1:Net-(J31-Pin_2); 2:/LIM_SW3)
+PWM1,/PWM1,J7,3,direct,97,PE0,
+PWM2,/PWM2,J9,3,direct,98,PE1,
+PWM3,/PWM3,J10,3,direct,3,PE4,
+PWM4,/PWM4,J14,3,direct,17,PC2,
+PWM5,/PWM5,J19,3,direct,22,PA2,
+PWM6,/PWM6,J22,3,direct,25,PA3,

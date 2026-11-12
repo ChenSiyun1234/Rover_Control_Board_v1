@@ -1,0 +1,23 @@
+24 V spring applied brake, clamp c
+Vs vs 0 26.4
+Rcoil vs top 72
+Lcoil top drain 0.6
+Vcmd cmd 0 3.3
+Venable en 0 PWL(0 1 50m 1 50.0001m 0)
+Sreset cmd mcu en 0 disconnect
+.model disconnect SW(Ron=0.01 Roff=1e15 Vt=0.5 Vh=0.1)
+Rg mcu gate 330
+Rpd gate 0 10000
+M1 drain gate 0 0 power L=1u W=1u
+Cgs gate 0 1.63n
+Cgd gate drain 170p
+Cds drain 0 180p
+Vcl drain ca 0
+DZ3 0 ca tv43
+.model power NMOS(Level=1 Vto=2 Kp=19.736842105263154 Rd=0.03766666666666666 Lambda=0)
+.model rect D(Is=1n N=1.6 Rs=0.1 BV=1000 IBV=5u)
+.model tv24 D(Is=1p N=1 Rs=0.6103896103896103 BV=29.5 IBV=1m)
+.model tv43 D(Is=1p N=1 Rs=1.9302325581395359 BV=52.8 IBV=1m)
+.options reltol=1e-5 abstol=1e-10 method=gear
+.tran 10u 120m 0 10u
+.end

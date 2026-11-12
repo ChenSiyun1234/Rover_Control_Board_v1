@@ -1,0 +1,2 @@
+stiffness_N_mm,acceleration_mm_s2,resonance_Hz,damping_ratio,server_mode_damping_ratio,cutoff_Hz,seed,seated,final_state,final_server_mm,peak_true_N,peak_tick_N,cycle_s,approach_s,insert_s,max_free_filtered_N,fault_flags,fault_name
+200,500,14.235250868343542,0.05,0.027406794090664703,0,42,True,SEATED,295.098712877707,114.52911760663326,114.50967133560323,5.575,2.858,2.717,46.54225158691406,0,NONE

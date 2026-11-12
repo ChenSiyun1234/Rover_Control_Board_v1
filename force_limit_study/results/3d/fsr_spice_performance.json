@@ -1,0 +1,62 @@
+{
+  "periods": 10000,
+  "elapsed_s": 15.097738799999206,
+  "seconds_per_simulated_second": 1.5097738799999205,
+  "memory": [
+    {
+      "period": 0,
+      "working_set": 1278849024,
+      "private_bytes": 2434871296
+    },
+    {
+      "period": 1000,
+      "working_set": 1278844928,
+      "private_bytes": 2434871296
+    },
+    {
+      "period": 2000,
+      "working_set": 1278840832,
+      "private_bytes": 2434871296
+    },
+    {
+      "period": 3000,
+      "working_set": 1278836736,
+      "private_bytes": 2434871296
+    },
+    {
+      "period": 4000,
+      "working_set": 1278832640,
+      "private_bytes": 2434871296
+    },
+    {
+      "period": 5000,
+      "working_set": 1278832640,
+      "private_bytes": 2434871296
+    },
+    {
+      "period": 6000,
+      "working_set": 1278828544,
+      "private_bytes": 2434871296
+    },
+    {
+      "period": 7000,
+      "working_set": 1278824448,
+      "private_bytes": 2434871296
+    },
+    {
+      "period": 8000,
+      "working_set": 1278820352,
+      "private_bytes": 2434871296
+    },
+    {
+      "period": 9000,
+      "working_set": 1278816256,
+      "private_bytes": 2434871296
+    },
+    {
+      "period": 10000,
+      "working_set": 1278812160,
+      "private_bytes": 2434871296
+    }
+  ]
+}
